@@ -1,7 +1,6 @@
-import Image from 'next/image'
+import { SectionHero } from "@/components/hero";
+import Image from "next/image";
 
 export default function Home() {
-  return (
-   <h1>Instasany</h1>
-  )
+  return <SectionHero />;
 }
