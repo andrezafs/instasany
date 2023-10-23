@@ -1,6 +1,11 @@
 import { SectionHero } from "@/components/hero";
-import Image from "next/image";
+import { SectionCards } from "@/components/section-cards";
 
 export default function Home() {
-  return <SectionHero />;
+  return (
+    <>
+      <SectionHero />
+      <SectionCards />
+    </>
+  );
 }
