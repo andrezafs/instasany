@@ -83,7 +83,6 @@ export function SectionCards() {
           start: "65% center",
           // e onde termina
           end: "",
-          markers: true,
         },
       }
     );
